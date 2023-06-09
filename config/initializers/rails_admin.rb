@@ -1,9 +1,11 @@
 RailsAdmin.config do |config|
+
   config.asset_source = :sprockets
 
   ### Popular gems integration
 
   ## == Devise ==
+
   config.authenticate_with do
     warden.authenticate! scope: :user
   end

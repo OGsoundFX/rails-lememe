@@ -83,5 +83,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem "rails_admin", "3.0"
-gem "sassc-rails"
+gem 'rails_admin', '~> 3.1', '>= 3.1.2'
