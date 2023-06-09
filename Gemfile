@@ -84,3 +84,4 @@ group :test do
 end
 
 gem 'rails_admin', '~> 3.1', '>= 3.1.2'
+gem "cssbundling-rails"
