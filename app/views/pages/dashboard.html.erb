@@ -1,0 +1,17 @@
+<h1>dashboard</h1>
+
+<%= form_for Community.new, html: { 
+      data: { 
+        controller: "alert",
+        alert_icon_value: "warning",
+        alert_title_value: "Are your sure?",
+        alert_html_value: "Create new post.",
+        confirm_button_text: "All good!",
+        show_cancel_button: true,
+        cancel_button_text: "Cancel",
+        action: "submit->alert#initSweetalert", 
+        turbo: false 
+      } } do |f| %>
+
+  <%= f.submit "Save" %>
+<% end %>
