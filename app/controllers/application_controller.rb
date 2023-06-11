@@ -7,17 +7,5 @@ class ApplicationController < ActionController::Base
     else
       dashboard_path
     end
-    # if resource.is_a?(User) && !resource.new_record? # Assuming the resource is a User model
-    #   raise
-    #   # Redirect logic for signed-in users
-    #   # You can replace the example with your desired redirection
-    #   # user_path(resource)
-    #   dashboard_path
-    # else
-    #   raise
-    #   # Redirect logic for sign-up
-    #   # You can replace the example with your desired redirection
-    #   root_path
-    # end
   end
 end
